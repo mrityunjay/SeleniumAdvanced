@@ -35,8 +35,7 @@ public class SeleniumTest {
 		try {
 			Thread.sleep(sec*1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Exception occured while waiting.");
 		}
 	}
 	
