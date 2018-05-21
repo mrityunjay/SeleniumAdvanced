@@ -28,8 +28,7 @@ public class SeleniumTest {
 	public static void login(WebDriver driver) {
 		driver.findElement(By.name("userName")).sendKeys("selenium");
 		driver.findElement(By.name("password")).sendKeys("selenium");
-		//Changed the code to call submit method for login
-		driver.findElement(By.name("login")).submit();
+		driver.findElement(By.name("login")).click();
 	}
 	
 	public static void registerUser(WebDriver driver) {
